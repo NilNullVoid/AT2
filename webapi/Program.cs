@@ -1,3 +1,6 @@
+using contactsLib;
+using ContactsTest;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
