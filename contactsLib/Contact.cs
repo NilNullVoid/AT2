@@ -37,7 +37,7 @@ namespace contactsLib
             List<string> arrString = new List<string>();
             foreach (Contact contact in arr)
             {
-                arrString.Add(contact.cid + ":" + contact.name + ":" + contact.phoneNumber);
+                arrString.Add($"{contact.cid}:{contact.name}:{contact.phoneNumber}");
             }
             return arrString;
         }
