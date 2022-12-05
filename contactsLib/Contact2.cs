@@ -45,11 +45,6 @@ namespace contactsLib2
         public string List()
         {
             string url = $"http://{ApiServer}/api/list.php";
-            /*List<string> arrString = new List<string>();
-            foreach (Contact contact in arr)
-            {
-                arrString.Add($"{contact.cid}:{contact.name}:{contact.phoneNumber}");
-            }*/
             return MakeApiRequest(url).Result;
         }
         public string search(int cid)
