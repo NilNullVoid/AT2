@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactsTest", "ContactsTest\ContactsTest.csproj", "{8847F28A-E57C-4D9A-B7C6-D0A17BA9A9CC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "contactsLib", "contactsLib\contactsLib.csproj", "{1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menu", "menu\menu.csproj", "{BD3CAAAA-534B-4320-9CD8-502B41632CD5}"
@@ -12,6 +10,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menu", "menu\menu.csproj", 
 		{1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161} = {1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsTest", "ContactsTest\ContactsTest.csproj", "{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{F7E2F551-3CB8-479A-B545-FF9265635A59}"
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu2", "menu2\menu2.csproj", "{445F9C6C-F5F9-43AD-81DA-DD79511857E4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PHPFiles", "PHPFiles", "{0F141099-F8C3-47B9-82E0-C181250E474E}"
@@ -30,10 +31,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8847F28A-E57C-4D9A-B7C6-D0A17BA9A9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8847F28A-E57C-4D9A-B7C6-D0A17BA9A9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8847F28A-E57C-4D9A-B7C6-D0A17BA9A9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8847F28A-E57C-4D9A-B7C6-D0A17BA9A9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A4F959E-B56A-4CD8-8FD9-6EBBAC79A161}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -42,6 +39,14 @@ Global
 		{BD3CAAAA-534B-4320-9CD8-502B41632CD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD3CAAAA-534B-4320-9CD8-502B41632CD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD3CAAAA-534B-4320-9CD8-502B41632CD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Release|Any CPU.Build.0 = Release|Any CPU
 		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
