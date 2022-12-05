@@ -55,17 +55,14 @@ namespace menu
         static void Delete()
         {
             Console.WriteLine("You've selected to delete a record");
-            Console.WriteLine("Please enter the position of the record: ");
-            int x = Int32.Parse(Console.ReadLine());
-            Console.WriteLine(link.get().delete(x));
+            Console.WriteLine("Please enter the cid of the record: ");
+            int cid = Int32.Parse(Console.ReadLine());
+            Console.WriteLine(link.get().delete(cid));
         }
         static void PrintRecords()
         {
-            Console.WriteLine("position | cid:name:phonenumber");
-            /*for (int i = 0; i < link.get().convertList().Count; i++)
-            {
-                Console.WriteLine($"{i} | {link.get().convertList()[i]}");
-            }*/
+            Console.WriteLine("cid:name:phonenumber");
+            Console.Write(link.get().List());
         }
     }
 }

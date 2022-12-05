@@ -14,6 +14,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "menu", "menu\menu.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu2", "menu2\menu2.csproj", "{445F9C6C-F5F9-43AD-81DA-DD79511857E4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PHPFiles", "PHPFiles", "{C568469C-12A1-4B89-9738-49ADAA73C4A5}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\xampp\htdocs\api\add.php = ..\..\..\..\..\xampp\htdocs\api\add.php
+		..\..\..\..\..\xampp\htdocs\api\createtable.php = ..\..\..\..\..\xampp\htdocs\api\createtable.php
+		..\..\..\..\..\xampp\htdocs\api\delete.php = ..\..\..\..\..\xampp\htdocs\api\delete.php
+		..\..\..\..\..\xampp\htdocs\api\list.php = ..\..\..\..\..\xampp\htdocs\api\list.php
+		readme.md = readme.md
+		..\..\..\..\..\xampp\htdocs\api\search.php = ..\..\..\..\..\xampp\htdocs\api\search.php
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

@@ -29,10 +29,10 @@ namespace contactsLib2
             string response = await client.GetStringAsync(url);
             return response;
         }
-        private string ApiServer = "localhost:80";
+        private string ApiServer = "localhost";
         public string add(Contact c)
         {
-            string url = $"http://{ApiServer}/api/add.php?contact={c.cid},{c.name},{c.phoneNumber}";
+            string url = $"http://{ApiServer}/api/add.php?cid={c.cid}&name={c.name}&number={c.phoneNumber}";
             return MakeApiRequest(url).Result;
         }
 
@@ -42,15 +42,16 @@ namespace contactsLib2
             return MakeApiRequest(url).Result;
         }
 
-        /*public List<string> convertList()
+        public string List()
         {
-            List<string> arrString = new List<string>();
+            string url = $"http://{ApiServer}/api/list.php";
+            /*List<string> arrString = new List<string>();
             foreach (Contact contact in arr)
             {
                 arrString.Add($"{contact.cid}:{contact.name}:{contact.phoneNumber}");
-            }
-            return arrString;
-        }*/
+            }*/
+            return MakeApiRequest(url).Result;
+        }
         public string search(int cid)
         {
             string url = $"http://{ApiServer}/api/search.php?cid={cid}";
