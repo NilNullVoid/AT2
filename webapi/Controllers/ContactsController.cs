@@ -13,20 +13,17 @@ public class ContactsController : ControllerBase
     [HttpGet]
     public IEnumerable<string> Get()
     {
-        test.addTestData(link.get());
         return link.get().convertList();
     }
     // api/Contacts/4  - gets the fourth record if it exists
     [HttpGet("{id}")]
     public string Get(int id)
     {
-        test.addTestData(link.get());
         return link.get().convertList()[id];
     }
     [HttpDelete("{id}")]
     public string Delete(int id)
     {
-        test.addTestData(link.get());
         link.get().delete(id);
         return $"Successfully deleted record {id}";
     }

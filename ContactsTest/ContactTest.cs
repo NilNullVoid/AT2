@@ -27,13 +27,6 @@ namespace ContactsTest
             test.get().delete(0);
             Assert.Empty(test.get().convertList());
         }
-
-        public void addTestData(Contacts cs2)
-        {
-            cs2.add(new Contact(1, "John", 11111111));
-            cs2.add(new Contact(2, "Jane", 2222222));
-            cs2.add(new Contact(3, "Doe", 33333333));
-        }
     }
 }
 ; 
