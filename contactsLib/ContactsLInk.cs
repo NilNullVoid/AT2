@@ -16,3 +16,16 @@ namespace contactsLib
         
     }
 }
+
+namespace contactsLib2
+{
+    public class ContactsLink
+    {
+        static Contacts instance = new Contacts();
+        public Contacts get()
+        {
+            return instance;
+        }
+
+    }
+}

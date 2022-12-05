@@ -13,6 +13,17 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsTest", "ContactsTest\ContactsTest.csproj", "{2BE11794-DFCF-4C6E-A322-4BEC1D7B21EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webapi", "webapi\webapi.csproj", "{F7E2F551-3CB8-479A-B545-FF9265635A59}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "menu2", "menu2\menu2.csproj", "{445F9C6C-F5F9-43AD-81DA-DD79511857E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PHPFiles", "PHPFiles", "{0F141099-F8C3-47B9-82E0-C181250E474E}"
+	ProjectSection(SolutionItems) = preProject
+		PHPFiles\add.php = PHPFiles\add.php
+		PHPFiles\createtable.php = PHPFiles\createtable.php
+		PHPFiles\delete.php = PHPFiles\delete.php
+		PHPFiles\list.php = PHPFiles\list.php
+		PHPFiles\readme.md = PHPFiles\readme.md
+		PHPFiles\search.php = PHPFiles\search.php
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +47,10 @@ Global
 		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E2F551-3CB8-479A-B545-FF9265635A59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{445F9C6C-F5F9-43AD-81DA-DD79511857E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

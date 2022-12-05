@@ -41,5 +41,10 @@ namespace contactsLib
             }
             return arrString;
         }
+        public string search(int cid)
+        {
+            int i = arr.FindIndex(contact => contact.cid == cid);
+            return $"{convertList()[i]} at place {i}";
+        }
     }
 }
