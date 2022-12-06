@@ -42,7 +42,7 @@ namespace contactsLib2
             return MakeApiRequest(url).Result;
         }
 
-        public string List()
+        public string list()
         {
             string url = $"http://{ApiServer}/api/list.php";
             return MakeApiRequest(url).Result;

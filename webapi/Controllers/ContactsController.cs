@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using contactsLib;
+using contactsLib2;
 using ContactsTest;
 
 namespace webapi.Controllers;
@@ -11,15 +11,16 @@ public class ContactsController : ControllerBase
     ContactsLink link = new ContactsLink();
     // api/Contacts
     [HttpGet]
-    public IEnumerable<string> Get()
+    public string Get()
     {
-        return link.get().convertList();
+        return link.get().list();
     }
     // api/Contacts/4  - gets the fourth record if it exists
     [HttpGet("{id}")]
     public string Get(int id)
     {
-        return link.get().convertList()[id];
+        
+        return link.get().search(id);
     }
     [HttpDelete("{id}")]
     public string Delete(int id)

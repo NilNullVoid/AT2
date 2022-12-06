@@ -62,7 +62,7 @@ namespace menu
         static void PrintRecords()
         {
             Console.WriteLine("cid:name:phonenumber");
-            Console.Write(link.get().List());
+            Console.Write(link.get().list());
         }
     }
 }
